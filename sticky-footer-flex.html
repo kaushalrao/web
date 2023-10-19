@@ -7,16 +7,19 @@
   </head>
 
   <body style="margin: 0">
-    <div style="display: flex; height: 80vh">
+    <div style="display: flex; height: 100vh">
       <div style="flex: 1; display: flex; flex-direction: column">
         <div
           style="
-            background: rgb(130, 134, 255);
-            height: 100px;
-            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            border: 1px solid black;
+            background-color: rgb(255, 200, 112);
           "
         >
-          Header
+          Header 1
         </div>
         <div style="flex: 1; overflow: auto">
           It is a long established fact that a reader will be distracted by the
@@ -229,17 +232,32 @@
         </div>
         <div
           style="
-            position: -webkit-sticky;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             flex-shrink: 0;
             height: 50px;
-            text-align: center;
             background-color: rgb(255, 236, 112);
+            border: 1px solid black;
           "
         >
-          Footer
+          Footer 1
         </div>
       </div>
-      <div style="flex: 1">
+      <div style="display:flex;flex: 1;flex-direction: column;">
+        <div
+        style="
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 50px;
+          border: 1px solid black;
+          background-color: rgb(255, 200, 112);
+        "
+      >
+        Header 2
+      </div>
+      <div style="flex: 1;">
         It is a long established fact that a reader will be distracted by the
         readable content of a page when looking at its layout. The point of
         using Lorem Ipsum is that it has a more-or-less normal distribution of
@@ -267,6 +285,20 @@
         many web sites still in their infancy. Various versions have evolved
         over the years, sometimes by accident, sometimes on purpose (injected
         humour and the like).
+      </div>
+        <div
+          style="
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            height: 50px;
+            background-color: rgb(255, 236, 112);
+            border: 1px solid black;
+          "
+        >
+          Footer 2
+        </div>
       </div>
     </div>
   </body>
